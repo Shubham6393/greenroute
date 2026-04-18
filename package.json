@@ -1,0 +1,13 @@
+{
+  "name": "greenroute",
+  "version": "1.0.0",
+  "description": "GreenRoute - Carbon-Aware Sustainable Travel System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start": "node -e \"const { execSync } = require('child_process'); require('child_process').spawn('npm', ['run','dev'], { cwd: './backend', stdio: 'inherit', shell: true }); require('child_process').spawn('npm', ['start'], { cwd: './frontend', stdio: 'inherit', shell: true });\""
+  },
+  "keywords": ["greenroute", "carbon", "sustainability", "travel", "eco"],
+  "license": "MIT"
+}
