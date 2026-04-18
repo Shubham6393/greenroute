@@ -43,13 +43,13 @@ GreenRoute recommends travel routes based on **carbon emissions**, not just spee
 
 ## Tech Stack
 
-| Layer     | Technology                                         |
-|-----------|----------------------------------------------------|
-| Frontend  | React.js, Recharts, Inline CSS, .css , .jsx , .html|
-| Backend   | Node.js, Express.js                                |
-| Database  | MongoDB + Mongoose                                 |
-| Maps API  | Google Maps Directions API                         |
-| Fonts     | Syne (headings) + DM Sans (body)                   |
+| Layer     | Technology                                          |
+|-----------|-----------------------------------------------------|
+| Frontend  | React.jsx, Recharts, Inline CSS, .css , .jsx , .html|
+| Backend   | Node.js, Express.js                                 |
+| Database  | MongoDB + Mongoose                                  |
+| Maps API  | Google Maps Directions API                          |
+| Fonts     | Syne (headings) + DM Sans (body)                    |
 
 ---
 
